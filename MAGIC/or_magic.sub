@@ -1,0 +1,42 @@
+* SPICE3 file created from or_magic.ext - technology: scmos
+.SUBCKT or_mag A B OUTPUT VDD GND
+
+.OPTION scale=0.09u
+
+M1000 OUTPUT nor_magic_0/OUTPUT VDD nor_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1001 OUTPUT nor_magic_0/OUTPUT GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=87 ps=66
+M1002 nor_magic_0/OUTPUT B A_13_6# nor_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1003 A_13_6# A VDD nor_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 GND B nor_magic_0/OUTPUT Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=24 ps=20
+M1005 nor_magic_0/OUTPUT A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 A B 0.08fF
+C1 A VDD 0.02fF
+C2 nor_magic_0/w_0_0# A 0.06fF
+C3 A GND 0.07fF
+C4 nor_magic_0/w_0_0# B 0.06fF
+C5 A nor_magic_0/OUTPUT 0.05fF
+C6 nor_magic_0/w_0_0# VDD 0.11fF
+C7 B GND 0.13fF
+C8 B nor_magic_0/OUTPUT 0.10fF
+C9 OUTPUT VDD 0.11fF
+C10 nor_magic_0/w_0_0# OUTPUT 0.03fF
+C11 nor_magic_0/OUTPUT VDD 0.10fF
+C12 nor_magic_0/w_0_0# nor_magic_0/OUTPUT 0.10fF
+C13 GND OUTPUT 0.04fF
+C14 OUTPUT nor_magic_0/OUTPUT 0.05fF
+C15 GND nor_magic_0/OUTPUT 0.22fF
+C16 B Gnd 0.21fF
+C17 A Gnd 0.14fF
+C18 GND Gnd 0.38fF
+C19 OUTPUT Gnd 0.05fF
+C20 VDD Gnd 0.14fF
+C21 nor_magic_0/OUTPUT Gnd 0.20fF
+C22 nor_magic_0/w_0_0# Gnd 1.12fF
+
+.ENDS or_mag

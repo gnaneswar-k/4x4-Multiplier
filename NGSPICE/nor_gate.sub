@@ -1,0 +1,15 @@
+.SUBCKT nor_own A B OUT VDD GND
+
+*MOSFET	Drain Gate Source Body Type
+
+MnA OUT A GND GND CMOSN W={width_N} L={LAMBDA}
++ AS={5*width_N*LAMBDA} PS={10*LAMBDA+2*width_N} AD={5*width_N*LAMBDA} PD={10*LAMBDA+2*width_N}
+MnB OUT B GND GND CMOSN W={width_N} L={LAMBDA}
++ AS={5*width_N*LAMBDA} PS={10*LAMBDA+2*width_N} AD={5*width_N*LAMBDA} PD={10*LAMBDA+2*width_N}
+
+MpA node1 A VDD VDD CMOSP W={width_P} L={LAMBDA}
++ AS={5*width_P*LAMBDA} PS={10*LAMBDA+2*width_P} AD={5*width_P*LAMBDA} PD={10*LAMBDA+2*width_P}
+MpB OUT B node1 VDD CMOSP W={width_P} L={LAMBDA}
++ AS={5*width_P*LAMBDA} PS={10*LAMBDA+2*width_P} AD={5*width_P*LAMBDA} PD={10*LAMBDA+2*width_P}
+
+.ENDS nor_own

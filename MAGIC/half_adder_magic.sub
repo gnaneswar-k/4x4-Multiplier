@@ -1,0 +1,109 @@
+* SPICE3 file created from half_adder_magic.ext - technology: scmos
+.SUBCKT half_add_mag A B SUM CARRY VDD GND
+.option scale=0.09u
+
+M1000 VDD B xor_magic_0/a_13_6# xor_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=440 pd=286 as=48 ps=28
+M1001 xor_magic_0/a_80_n12# xor_magic_0/a_46_39# GND Gnd CMOSN w=4 l=2
++  ad=24 pd=20 as=174 ps=132
+M1002 SUM xor_magic_0/a_46_39# VDD xor_magic_0/w_67_0# CMOSP w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1003 xor_magic_0/a_46_n26# B VDD xor_magic_0/w_33_n32# CMOSP w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1004 xor_magic_0/a_13_6# A VDD xor_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 SUM xor_magic_0/a_46_n26# xor_magic_0/a_80_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1006 xor_magic_0/a_46_39# A VDD xor_magic_0/w_33_33# CMOSP w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1007 VDD xor_magic_0/a_46_n26# SUM xor_magic_0/w_67_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 VDD xor_magic_0/a_13_6# xor_magic_0/a_46_n26# xor_magic_0/w_33_n32# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 xor_magic_0/a_46_21# A GND Gnd CMOSN w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1010 xor_magic_0/a_46_n44# B GND Gnd CMOSN w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1011 xor_magic_0/a_13_6# B xor_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1012 xor_magic_0/a_13_n12# A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 xor_magic_0/a_46_n26# xor_magic_0/a_13_6# xor_magic_0/a_46_n44# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 VDD xor_magic_0/a_13_6# xor_magic_0/a_46_39# xor_magic_0/w_33_33# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 xor_magic_0/a_46_39# xor_magic_0/a_13_6# xor_magic_0/a_46_21# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 CARRY and_magic_0/nand_magic_0/OUTPUT VDD and_magic_0/nand_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 CARRY and_magic_0/nand_magic_0/OUTPUT GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 VDD B and_magic_0/nand_magic_0/OUTPUT and_magic_0/nand_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1019 and_magic_0/nand_magic_0/OUTPUT A VDD and_magic_0/nand_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 and_magic_0/nand_magic_0/OUTPUT B and_magic_0/nand_magic_0/a_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1021 and_magic_0/nand_magic_0/a_13_n12# A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 xor_magic_0/w_33_33# xor_magic_0/a_46_39# 0.02fF
+C1 CARRY and_magic_0/nand_magic_0/OUTPUT 0.05fF
+C2 xor_magic_0/a_13_6# xor_magic_0/a_46_n26# 0.08fF
+C3 B A 0.31fF
+C4 xor_magic_0/a_46_39# xor_magic_0/w_67_0# 0.08fF
+C5 GND B 0.28fF
+C6 VDD A 0.12fF
+C7 xor_magic_0/a_13_6# xor_magic_0/w_0_0# 0.02fF
+C8 xor_magic_0/a_46_n26# xor_magic_0/w_67_0# 0.06fF
+C9 GND VDD 0.21fF
+C10 GND CARRY 0.13fF
+C11 SUM xor_magic_0/w_67_0# 0.02fF
+C12 xor_magic_0/a_13_6# B 0.15fF
+C13 xor_magic_0/a_13_6# xor_magic_0/w_33_n32# 0.08fF
+C14 VDD xor_magic_0/a_13_6# 0.47fF
+C15 xor_magic_0/a_46_39# xor_magic_0/a_46_n26# 0.08fF
+C16 xor_magic_0/w_33_33# VDD 0.09fF
+C17 VDD xor_magic_0/w_67_0# 0.08fF
+C18 and_magic_0/nand_magic_0/OUTPUT A 0.05fF
+C19 GND and_magic_0/nand_magic_0/OUTPUT 0.09fF
+C20 xor_magic_0/a_46_n26# SUM 0.08fF
+C21 B and_magic_0/nand_magic_0/w_0_0# 0.06fF
+C22 xor_magic_0/a_46_39# VDD 0.55fF
+C23 GND A 0.23fF
+C24 VDD and_magic_0/nand_magic_0/w_0_0# 0.13fF
+C25 xor_magic_0/a_46_n26# xor_magic_0/w_33_n32# 0.02fF
+C26 VDD xor_magic_0/a_46_n26# 0.22fF
+C27 CARRY and_magic_0/nand_magic_0/w_0_0# 0.03fF
+C28 B xor_magic_0/w_0_0# 0.06fF
+C29 VDD xor_magic_0/w_0_0# 0.08fF
+C30 xor_magic_0/a_13_6# A 0.13fF
+C31 VDD SUM 0.30fF
+C32 xor_magic_0/w_33_33# A 0.06fF
+C33 GND xor_magic_0/a_13_6# 0.01fF
+C34 B xor_magic_0/w_33_n32# 0.06fF
+C35 VDD xor_magic_0/w_33_n32# 0.08fF
+C36 and_magic_0/nand_magic_0/OUTPUT and_magic_0/nand_magic_0/w_0_0# 0.09fF
+C37 CARRY VDD 0.11fF
+C38 xor_magic_0/w_33_33# xor_magic_0/a_13_6# 0.06fF
+C39 and_magic_0/nand_magic_0/w_0_0# A 0.06fF
+C40 GND xor_magic_0/a_46_n26# 0.10fF
+C41 and_magic_0/nand_magic_0/OUTPUT B 0.08fF
+C42 xor_magic_0/w_0_0# A 0.08fF
+C43 and_magic_0/nand_magic_0/OUTPUT VDD 0.24fF
+C44 xor_magic_0/a_46_39# xor_magic_0/a_13_6# 0.08fF
+C45 and_magic_0/nand_magic_0/OUTPUT Gnd 0.20fF
+C46 VDD Gnd 0.49fF
+C47 and_magic_0/nand_magic_0/w_0_0# Gnd 1.12fF
+C48 GND Gnd 2.25fF
+C49 CARRY Gnd 0.10fF
+C50 xor_magic_0/a_46_n26# Gnd 0.37fF
+C51 B Gnd 1.47fF
+C52 xor_magic_0/a_46_39# Gnd 0.29fF
+C53 xor_magic_0/a_13_6# Gnd 0.36fF
+C54 A Gnd 0.63fF
+C55 xor_magic_0/w_33_n32# Gnd 0.64fF
+C56 xor_magic_0/w_67_0# Gnd 0.64fF
+C57 xor_magic_0/w_0_0# Gnd 0.64fF
+C58 xor_magic_0/w_33_33# Gnd 0.64fF
+
+.ENDS half_add_mag

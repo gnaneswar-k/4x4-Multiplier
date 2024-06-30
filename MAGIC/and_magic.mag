@@ -1,0 +1,16 @@
+magic
+tech scmos
+timestamp 1668423063
+<< metal2 >>
+rect 5 -6 10 6
+rect 28 -6 33 6
+rect 5 -11 33 -6
+use inverter_magic  inverter_magic_0
+timestamp 1668422652
+transform 1 0 28 0 1 19
+box 0 -15 24 24
+use nand_magic  nand_magic_0
+timestamp 1668422242
+transform 1 0 0 0 1 19
+box 0 -24 32 24
+<< end >>

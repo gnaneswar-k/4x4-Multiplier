@@ -1,0 +1,8 @@
+.SUBCKT or_own A B OUT VDD GND
+.INCLUDE inverter.sub
+.INCLUDE nor_gate.sub
+
+X1 A B node1 VDD GND nor_own
+X2 node1 OUT VDD GND inverter_own
+
+.ENDS or_own

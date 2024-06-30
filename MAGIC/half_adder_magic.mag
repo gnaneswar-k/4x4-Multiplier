@@ -1,0 +1,42 @@
+magic
+tech scmos
+timestamp 1668426622
+<< metal1 >>
+rect -20 73 0 77
+rect -20 48 3 52
+rect 93 48 109 52
+rect -15 -31 -11 48
+rect -3 30 2 34
+rect 51 -10 99 -6
+rect -15 -35 3 -31
+rect 49 -35 62 -31
+rect -20 -53 -8 -49
+rect -3 -53 2 -49
+<< m2contact >>
+rect 85 105 90 110
+rect -8 29 -3 34
+rect 99 -10 104 -5
+rect -8 -53 -3 -48
+<< metal2 >>
+rect 90 106 104 110
+rect -20 40 0 45
+rect -8 -48 -4 29
+rect 53 -55 57 1
+rect 100 -5 104 106
+rect 33 -60 57 -55
+use xor_magic  xor_magic_0
+timestamp 1668415522
+transform 1 0 0 0 1 53
+box 0 -53 99 57
+use and_magic  and_magic_0
+timestamp 1668423063
+transform 1 0 0 0 1 -49
+box 0 -11 52 43
+<< labels >>
+rlabel metal1 -20 73 -16 77 3 VDD
+rlabel metal1 -20 48 -16 52 3 A
+rlabel metal2 -20 40 -16 45 3 GND
+rlabel metal1 105 48 109 52 7 SUM
+rlabel metal1 58 -35 62 -31 1 CARRY
+rlabel metal1 -20 -53 -16 -49 3 B
+<< end >>

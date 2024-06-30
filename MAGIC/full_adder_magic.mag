@@ -1,0 +1,35 @@
+magic
+tech scmos
+timestamp 1668429930
+<< metal1 >>
+rect 107 133 140 137
+rect 78 -1 82 29
+rect 206 -1 210 7
+rect 78 -5 210 -1
+<< metal2 >>
+rect 128 44 132 100
+rect 73 40 132 44
+rect 204 17 211 22
+rect 140 -5 145 7
+rect 0 -9 145 -5
+use half_adder_magic  half_adder_magic_1
+timestamp 1668426622
+transform 1 0 148 0 1 60
+box -20 -60 109 110
+use or_magic  or_magic_0
+timestamp 1668426029
+transform 1 0 208 0 1 0
+box -2 2 49 54
+use half_adder_magic  half_adder_magic_0
+timestamp 1668426622
+transform 1 0 20 0 1 60
+box -20 -60 109 110
+<< labels >>
+rlabel space 0 133 4 137 3 VDD
+rlabel space 0 108 4 112 3 A
+rlabel space 0 7 4 11 3 B
+rlabel metal2 0 -9 4 -5 2 C_IN
+rlabel space 0 100 4 105 3 GND
+rlabel space 253 108 257 112 7 SUM
+rlabel space 253 25 257 29 7 C_OUT
+<< end >>

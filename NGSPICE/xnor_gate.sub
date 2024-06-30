@@ -1,0 +1,9 @@
+.SUBCKT xnor_own A B OUT VDD GND
+.INCLUDE nor_gate.sub
+
+X1 A B node1 VDD GND nor_own
+X2 A node1 node2 VDD GND nor_own
+X3 node1 B node3 VDD GND nor_own
+X4 node2 node3 OUT VDD GND nor_own
+
+.ENDS xnor_own

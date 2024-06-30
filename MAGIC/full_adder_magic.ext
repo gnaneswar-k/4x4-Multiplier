@@ -1,0 +1,37 @@
+timestamp 1668429930
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use half_adder_magic half_adder_magic_0 1 0 20 0 1 60
+use or_magic or_magic_0 1 0 208 0 1 0
+use half_adder_magic half_adder_magic_1 1 0 148 0 1 60
+node "C_IN" 3 1410.86 0 -9 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 640 322 0 0 0 0 0 0 0 0
+node "m2_204_17#" 0 130.666 204 17 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0 0 0 0 0
+node "m2_73_40#" 2 1313.15 73 40 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 460 238 0 0 0 0 0 0 0 0
+node "m1_78_n5#" 3 563.508 78 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 680 348 0 0 0 0 0 0 0 0 0 0
+node "m1_107_133#" 1 115.847 107 133 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 74 0 0 0 0 0 0 0 0 0 0
+cap "C_IN" "m1_78_n5#" 721.674
+subcap "C_IN" -399.258
+subcap "m1_78_n5#" -324.233
+cap "half_adder_magic_0/and_magic_0/nand_magic_0/GND" "C_IN" 108.576
+cap "m2_73_40#" "half_adder_magic_0/m1_51_n10#" 115.71
+cap "or_magic_0/inverter_magic_0/w_0_0#" "or_magic_0/inverter_magic_0/VDD" 26.1
+cap "half_adder_magic_0/xor_magic_0/VDD" "half_adder_magic_1/GND" 36.54
+cap "half_adder_magic_0/xor_magic_0/VDD" "half_adder_magic_0/xor_magic_0/w_67_0#" 6.012
+merge "half_adder_magic_1/B" "C_IN" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "or_magic_0/nor_magic_0/B" "half_adder_magic_0/CARRY" -29.1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/CARRY" "m1_78_n5#"
+merge "half_adder_magic_1/CARRY" "or_magic_0/nor_magic_0/A" -13.5048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -16 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/m2_33_n60#" "or_magic_0/inverter_magic_0/GND" -163.962 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -32 0 0 0 0 0 0 0 0
+merge "or_magic_0/inverter_magic_0/GND" "half_adder_magic_1/and_magic_0/nand_magic_0/GND"
+merge "half_adder_magic_1/and_magic_0/nand_magic_0/GND" "or_magic_0/nor_magic_0/GND"
+merge "or_magic_0/nor_magic_0/GND" "m2_204_17#"
+merge "half_adder_magic_1/and_magic_0/inverter_magic_0/VDD" "or_magic_0/inverter_magic_0/VDD" -205.306 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -184 -100 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/VDD" "half_adder_magic_0/xor_magic_0/VDD" -116.238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -52 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/xor_magic_0/VDD" "m1_107_133#"
+merge "half_adder_magic_1/GND" "half_adder_magic_0/and_magic_0/nand_magic_0/GND" -1001.13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -332 -182 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/and_magic_0/nand_magic_0/GND" "m2_73_40#"
+merge "half_adder_magic_1/and_magic_0/nand_magic_0/VDD" "or_magic_0/nor_magic_0/VDD" 7.5816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/A" "half_adder_magic_0/SUM" -11.2836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,131 @@
+TEST MULTIPLIER
+***SETUP***
+.INCLUDE TSMC_180nm.txt
+.INCLUDE multiplier.sub
+.PARAM SUPPLY = 1
+.PARAM LAMBDA = 0.18u
+.PARAM width_N = {10*LAMBDA}
+.PARAM width_P = {2.5*width_N}
+.GLOBAL GND VDD
+
+VDS VDD GND 'SUPPLY'
+
+***CIRCUIT***
+X1 A0 A1 A2 A3 B0 B1 B2 B3 P0 P1 P2 P3 P4 P5 P6 P7 VDD GND multi_mag
+
+CP0 P0 GND 0.5f
+CP1 P1 GND 0.5f
+CP2 P2 GND 0.5f
+CP3 P3 GND 0.5f
+CP4 P4 GND 0.5f
+CP5 P5 GND 0.5f
+CP6 P6 GND 0.5f
+CP7 P7 GND 0.5f
+
+***INPUT***
+VA0 A0 GND PULSE(0 0 0 100p 100p 19.9n 40n)
+VA1 A1 GND PULSE(0 1 0 100p 100p 19.9n 40n)
+VA2 A2 GND PULSE(0 1 0 100p 100p 19.9n 40n)
+VA3 A3 GND PULSE(0 0 0 100p 100p 19.9n 40n)
+VB0 B0 GND PULSE(0 0 0 100p 100p 19.9n 40n)
+VB1 B1 GND PULSE(0 1 0 100p 100p 19.9n 40n)
+VB2 B2 GND PULSE(0 1 0 100p 100p 19.9n 40n)
+VB3 B3 GND PULSE(0 0 0 100p 100p 19.9n 40n)
+
+***ANALYSIS***
+.TRAN 100p 40n
+
+.CONTROL
+	run
+	plot v(P0) v(P1)+2 v(P2)+4 v(P3)+6 v(P4)+8 v(P5)+10 v(P6)+12 v(P7)+14
+	
+	LET delay = 0
+	
+	MEAS TRAN p0rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P0) VAL = '0.5' RISE = 1
+	MEAS TRAN p0fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P0) VAL = '0.5' FALL = LAST
+	LET p0delay = (p0rise + p0fall)/2
+	IF p0delay > delay
+		LET delay = p0delay
+	END
+	
+	MEAS TRAN p1rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P1) VAL = '0.5' RISE = 1
+	MEAS TRAN p1fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P1) VAL = '0.5' FALL = LAST
+	LET p1delay = (p1rise + p1fall)/2
+	IF p1delay > delay
+		LET delay = p1delay
+	END
+	
+	MEAS TRAN p2rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P2) VAL = '0.5' RISE = 1
+	MEAS TRAN p2fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P2) VAL = '0.5' FALL = LAST
+	LET p2delay = (p2rise + p2fall)/2
+	IF p2delay > delay
+		LET delay = p2delay
+	END
+	
+	MEAS TRAN p3rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P3) VAL = '0.5' RISE = 1
+	MEAS TRAN p3fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P3) VAL = '0.5' FALL = LAST
+	LET p3delay = (p3rise + p3fall)/2
+	IF p3delay > delay
+		LET delay = p3delay
+	END
+	
+	MEAS TRAN p4rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P4) VAL = '0.5' RISE = 1
+	MEAS TRAN p4fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P4) VAL = '0.5' FALL = LAST
+	LET p4delay = (p4rise + p4fall)/2
+	IF p4delay > delay
+		LET delay = p4delay
+	END
+	
+	MEAS TRAN p5rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P5) VAL = '0.5' RISE = 1
+	MEAS TRAN p5fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P5) VAL = '0.5' FALL = LAST
+	LET p5delay = (p5rise + p5fall)/2
+	IF p5delay > delay
+		LET delay = p5delay
+	END
+	
+	MEAS TRAN p6rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P6) VAL = '0.5' RISE = 1
+	MEAS TRAN p6fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P6) VAL = '0.5' FALL = LAST
+	LET p6delay = (p6rise + p6fall)/2
+	IF p6delay > delay
+		LET delay = p6delay
+	END
+	
+	MEAS TRAN p7rise
+	+ TRIG v(B2) VAL = '0.5' RISE = 1 TARG v(P7) VAL = '0.5' RISE = 1
+	MEAS TRAN p7fall
+	+ TRIG v(B2) VAL = '0.5' FALL = LAST TARG v(P7) VAL = '0.5' FALL = LAST
+	LET p7delay = (p7rise + p7fall)/2
+	IF p7delay > delay
+		LET delay = p7delay
+	END
+	
+	LET vA0 = v(A0)[ceil(length(v(A0))/2)]
+	LET vA1 = v(A1)[ceil(length(v(A1))/2)]
+	LET vA2 = v(A2)[ceil(length(v(A2))/2)]
+	LET vA3 = v(A3)[ceil(length(v(A3))/2)]
+	LET vB0 = v(B0)[ceil(length(v(B0))/2)]
+	LET vB1 = v(B1)[ceil(length(v(B1))/2)]
+	LET vB2 = v(B2)[ceil(length(v(B2))/2)]
+	LET vB3 = v(B3)[ceil(length(v(B3))/2)]
+	
+	ECHO A0: "$&vA0", A1: "$&vA1", A2: "$&vA2", A3: "$&vA3">> Delay_Timings.txt
+	ECHO B0: "$&vB0", B1: "$&vB1", B2: "$&vB2", B3: "$&vB3">> Delay_Timings.txt
+	ECHO Maximum Delay: "$&delay">> Delay_Timings.txt
+	ECHO -------------------------->> Delay_Timings.txt
+.ENDC
+
+.END

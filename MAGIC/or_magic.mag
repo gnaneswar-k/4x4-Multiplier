@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1668426029
+use nor_magic  nor_magic_0
+timestamp 1668425775
+transform 1 0 -2 0 1 30
+box 0 -28 32 24
+use inverter_magic  inverter_magic_0
+timestamp 1668422652
+transform 1 0 25 0 1 30
+box 0 -15 24 24
+<< end >>

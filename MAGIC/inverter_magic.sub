@@ -1,0 +1,24 @@
+* SPICE3 file created from inverter_magic.ext - technology: scmos
+.SUBCKT inv_mag INPUT OUTPUT VDD GND
+
+.OPTION scale=0.09u
+
+MP1 OUTPUT INPUT VDD w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=40 ps=26
+MN1 OUTPUT INPUT GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=29 ps=22
+C0 INPUT GND 0.07fF
+C1 VDD OUTPUT 0.11fF
+C2 INPUT w_0_0# 0.06fF
+C3 OUTPUT GND 0.04fF
+C4 OUTPUT w_0_0# 0.03fF
+C5 VDD w_0_0# 0.05fF
+C6 OUTPUT INPUT 0.05fF
+C7 VDD INPUT 0.02fF
+C8 GND Gnd 0.16fF
+C9 OUTPUT Gnd 0.05fF
+C10 VDD Gnd 0.06fF
+C11 INPUT Gnd 0.13fF
+C12 w_0_0# Gnd 0.48fF
+
+.ENDS inv_mag

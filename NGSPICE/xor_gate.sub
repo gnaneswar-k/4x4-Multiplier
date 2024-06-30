@@ -1,0 +1,9 @@
+.SUBCKT xor_own A B OUT VDD GND
+.INCLUDE nand_gate.sub
+
+X1 A B node1 VDD GND nand_own
+X2 A node1 node2 VDD GND nand_own
+X3 node1 B node3 VDD GND nand_own
+X4 node2 node3 OUT VDD GND nand_own
+
+.ENDS xor_own

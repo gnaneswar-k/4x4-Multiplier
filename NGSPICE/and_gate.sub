@@ -1,0 +1,8 @@
+.SUBCKT and_own A B OUT VDD GND
+.INCLUDE inverter.sub
+.INCLUDE nand_gate.sub
+
+X1 A B node1 VDD GND nand_own
+X2 node1 OUT VDD GND inverter_own
+
+.ENDS and_own

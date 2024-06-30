@@ -1,0 +1,16 @@
+timestamp 1668426029
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use nor_magic nor_magic_0 1 0 -2 0 1 30
+use inverter_magic inverter_magic_0 1 0 25 0 1 30
+cap "nor_magic_0/GND" "nor_magic_0/OUTPUT" -2.84217e-14
+cap "nor_magic_0/VDD" "nor_magic_0/OUTPUT" 47.1291
+cap "nor_magic_0/OUTPUT" "inverter_magic_0/w_0_0#" -7.10543e-15
+cap "nor_magic_0/VDD" "inverter_magic_0/w_0_0#" -5.01
+merge "inverter_magic_0/GND" "nor_magic_0/GND" -52.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "inverter_magic_0/VDD" "nor_magic_0/VDD" -19.344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0 0 0 0 0
+merge "inverter_magic_0/w_0_0#" "nor_magic_0/w_0_0#" -100.44 0 0 0 0 -100 -50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_magic_0/INPUT" "nor_magic_0/OUTPUT" -24.354 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0 0 0 0 0

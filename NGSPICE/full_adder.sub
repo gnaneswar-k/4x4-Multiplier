@@ -1,0 +1,12 @@
+.SUBCKT fulladd A B Cin Sout Cout VDD GND
+.INCLUDE xor_gate.sub
+.INCLUDE and_gate.sub
+.INCLUDE or_gate.sub
+
+X1 A B C VDD GND and_own
+X2 A B S VDD GND xor_own
+X3 S Cin Sout VDD GND xor_own
+X4 S Cin node1 VDD GND and_own
+X5 node1 C Cout VDD GND or_own
+
+.ENDS fulladd

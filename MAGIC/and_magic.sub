@@ -1,0 +1,41 @@
+* SPICE3 file created from and_magic.ext - technology: scmos
+.SUBCKT and_mag A B OUTPUT VDD GND
+.OPTION scale=0.09u
+
+M1000 OUTPUT nand_magic_0/OUTPUT VDD nand_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=120 ps=78
+M1001 OUTPUT nand_magic_0/OUTPUT GND Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=58 ps=44
+M1002 VDD B nand_magic_0/OUTPUT nand_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1003 nand_magic_0/OUTPUT A VDD nand_magic_0/w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 nand_magic_0/OUTPUT B A_13_n12# Gnd CMOSN w=4 l=2
++  ad=20 pd=18 as=24 ps=20
+M1005 A_13_n12# A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 A nand_magic_0/OUTPUT 0.05fF
+C1 A B 0.08fF
+C2 nand_magic_0/OUTPUT GND 0.09fF
+C3 B GND 0.13fF
+C4 nand_magic_0/w_0_0# OUTPUT 0.03fF
+C5 OUTPUT GND 0.04fF
+C6 A nand_magic_0/w_0_0# 0.06fF
+C7 A GND 0.07fF
+C8 VDD nand_magic_0/OUTPUT 0.24fF
+C9 VDD OUTPUT 0.11fF
+C10 B nand_magic_0/OUTPUT 0.08fF
+C11 VDD nand_magic_0/w_0_0# 0.13fF
+C12 nand_magic_0/OUTPUT OUTPUT 0.05fF
+C13 A VDD 0.02fF
+C14 nand_magic_0/OUTPUT nand_magic_0/w_0_0# 0.09fF
+C15 B nand_magic_0/w_0_0# 0.06fF
+C16 nand_magic_0/OUTPUT Gnd 0.20fF
+C17 VDD Gnd 0.14fF
+C18 B Gnd 0.21fF
+C19 A Gnd 0.14fF
+C20 nand_magic_0/w_0_0# Gnd 1.12fF
+C21 GND Gnd 0.95fF
+C22 OUTPUT Gnd 0.05fF
+
+.ENDS and_mag

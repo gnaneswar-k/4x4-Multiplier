@@ -1,0 +1,8 @@
+.SUBCKT halfadd A B S C VDD GND
+.INCLUDE xor_gate.sub
+.INCLUDE and_gate.sub
+
+X1 A B C VDD GND and_own
+X2 A B S VDD GND xor_own
+
+.ENDS halfadd

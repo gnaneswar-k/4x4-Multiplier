@@ -1,0 +1,594 @@
+timestamp 1668634099
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use full_adder_magic full_adder_magic_5 1 0 158 0 1 -891
+use and_magic and_magic_11 1 0 0 0 1 -957
+use and_magic and_magic_10 1 0 0 0 1 -893
+use and_magic and_magic_9 1 0 0 0 1 -829
+use full_adder_magic full_adder_magic_4 1 0 470 0 1 -804
+use full_adder_magic full_adder_magic_3 1 0 158 0 1 -684
+use and_magic and_magic_12 1 0 0 0 1 -699
+use and_magic and_magic_8 1 0 0 0 1 -763
+use and_magic and_magic_13 1 0 0 0 1 -635
+use full_adder_magic full_adder_magic_1 1 0 182 0 1 -453
+use and_magic and_magic_15 1 0 0 0 1 -505
+use and_magic and_magic_14 1 0 0 0 1 -571
+use and_magic and_magic_7 1 0 0 0 1 -441
+use full_adder_magic full_adder_magic_2 1 0 471 0 1 -599
+use and_magic and_magic_5 1 0 0 0 1 -313
+use and_magic and_magic_6 1 0 0 0 1 -377
+use and_magic and_magic_4 1 0 0 0 1 -247
+use half_adder_magic half_adder_magic_1 1 0 92 0 1 -248
+use half_adder_magic half_adder_magic_2 1 0 491 0 1 -360
+use and_magic and_magic_3 1 0 0 0 1 -183
+use and_magic and_magic_2 1 0 0 0 1 -119
+use full_adder_magic full_adder_magic_0 1 0 200 0 1 -215
+use half_adder_magic half_adder_magic_0 1 0 92 0 1 -72
+use and_magic and_magic_1 1 0 0 0 1 -55
+use and_magic and_magic_0 1 0 0 0 1 11
+use full_adder_magic full_adder_magic_7 1 0 158 0 1 -1087
+use full_adder_magic full_adder_magic_6 1 0 470 0 1 -1007
+use half_adder_magic half_adder_magic_3 1 0 640 0 1 -327
+node "m2_28_n987#" 2 1621.53 28 -987 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 720 298 0 0 0 0 0 0 0 0
+node "m2_548_n387#" 3 1899.25 548 -387 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 693 354 0 0 0 0 0 0 0 0
+node "m2_149_n115#" 1 668.722 149 -115 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 275 120 0 0 0 0 0 0 0 0
+node "m2_n6_n951#" 17 10331.3 -6 -951 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5185 2084 0 0 0 0 0 0 0 0
+node "m1_154_n1102#" 14 2357.42 154 -1102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2876 1446 0 0 0 0 0 0 0 0 0 0
+node "C5" 30 7746.27 415 -1062 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4574 2302 1466 740 0 0 0 0 0 0 0 0
+node "P6" 30 7470.42 415 -979 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4710 2370 1326 670 0 0 0 0 0 0 0 0
+node "m1_52_n1096#" 5 1680.53 52 -1096 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 633 324 429 222 0 0 0 0 0 0 0 0
+node "P5" 20 3295.22 727 -899 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4024 2020 0 0 0 0 0 0 0 0 0 0
+node "m1_397_n907#" 2 529.659 397 -907 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 361 188 77 46 0 0 0 0 0 0 0 0
+node "m1_52_n879#" 11 1769.25 52 -879 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2156 1086 0 0 0 0 0 0 0 0 0 0
+node "m1_158_n975#" 9 4239.02 158 -975 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 165 96 1645 808 0 0 0 0 0 0 0 0
+node "m1_414_n841#" 2 275.959 414 -841 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 328 172 0 0 0 0 0 0 0 0 0 0
+node "m1_727_n779#" 12 5838.58 727 -779 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 269 142 2089 1052 0 0 0 0 0 0 0 0
+node "m1_34_n830#" 3 637.541 34 -830 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 669 342 25 20 0 0 0 0 0 0 0 0
+node "m1_414_n783#" 4 1102.98 414 -783 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470 248 278 146 0 0 0 0 0 0 0 0
+node "m1_52_n815#" 3 458.945 52 -815 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 552 284 0 0 0 0 0 0 0 0 0 0
+node "m1_52_n749#" 11 1779.06 52 -749 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2168 1092 0 0 0 0 0 0 0 0 0 0
+node "m1_34_n704#" 9 1542.67 34 -704 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1777 896 25 20 0 0 0 0 0 0 0 0
+node "m1_52_n685#" 9 1409.82 52 -685 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1716 866 0 0 0 0 0 0 0 0 0 0
+node "m1_145_n884#" 12 5860.52 145 -884 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 222 126 2150 1082 0 0 0 0 0 0 0 0
+node "m1_415_n634#" 2 285.762 415 -634 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 340 178 0 0 0 0 0 0 0 0 0 0
+node "m1_724_n616#" 11 4883.37 724 -616 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 102 2094 1016 0 0 0 0 0 0 0 0
+node "m1_34_n636#" 4 680.02 34 -636 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 721 368 25 20 0 0 0 0 0 0 0 0
+node "m1_52_n621#" 3 501.424 52 -621 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 604 310 0 0 0 0 0 0 0 0 0 0
+node "m1_52_n557#" 11 1792.13 52 -557 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2184 1100 0 0 0 0 0 0 0 0 0 0
+node "m1_410_n499#" 2 773.879 410 -499 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254 134 265 126 0 0 0 0 0 0 0 0
+node "m1_52_n491#" 8 1377.14 52 -491 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1676 846 0 0 0 0 0 0 0 0 0 0
+node "m1_620_n403#" 9 1547.06 620 -403 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1884 950 0 0 0 0 0 0 0 0 0 0
+node "m1_702_n362#" 14 9088.25 702 -362 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 242 128 3859 1610 0 0 0 0 0 0 0 0
+node "m1_553_n418#" 15 6342.28 553 -418 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 845 430 2085 1050 0 0 0 0 0 0 0 0
+node "m1_483_n425#" 6 1063.45 483 -425 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1292 654 0 0 0 0 0 0 0 0 0 0
+node "m1_153_n677#" 13 5838.44 153 -677 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 1934 1120 0 0 0 0 0 0 0 0
+node "m1_52_n427#" 3 494.888 52 -427 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 596 306 0 0 0 0 0 0 0 0 0 0
+node "m1_34_n380#" 4 686.555 34 -380 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 729 372 25 20 0 0 0 0 0 0 0 0
+node "m1_50_n363#" 3 498.156 50 -363 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 308 0 0 0 0 0 0 0 0 0 0
+node "m1_421_n443#" 4 670.217 421 -443 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 709 362 25 20 0 0 0 0 0 0 0 0
+node "m1_415_n627#" 17 2902.01 415 -627 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3623 1754 0 0 0 0 0 0 0 0 0 0
+node "m1_435_n341#" 1 220.41 435 -341 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 138 0 0 0 0 0 0 0 0 0 0
+node "P4" 7 1151.68 749 -279 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1400 708 0 0 0 0 0 0 0 0 0 0
+node "m1_615_n255#" 1 309.227 615 -255 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 105 60 0 0 0 0 0 0 0 0
+node "P3" 8 1259.51 600 -312 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1532 774 0 0 0 0 0 0 0 0 0 0
+node "m1_420_n287#" 1 174.664 420 -287 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0 0 0 0 0 0 0 0 0
+node "m1_154_n284#" 4 1992.46 154 -284 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 829 422 0 0 0 0 0 0 0 0
+node "m1_52_n233#" 2 302.1 52 -233 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 360 188 0 0 0 0 0 0 0 0 0 0
+node "m1_52_n313#" 5 928.357 52 -313 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1025 520 25 20 0 0 0 0 0 0 0 0
+node "m1_199_n200#" 0 50.4948 199 -200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0 0 0 0 0 0 0
+node "m1_457_n191#" 9 4520.03 457 -191 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 1716 870 0 0 0 0 0 0 0 0
+node "m1_49_n183#" 1 197.537 49 -183 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 124 0 0 0 0 0 0 0 0 0 0
+node "m1_34_n200#" 1 347.677 34 -200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 273 144 40 26 0 0 0 0 0 0 0 0
+node "m1_154_n107#" 1 158.326 154 -107 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 100 0 0 0 0 0 0 0 0 0 0
+node "P2" 4 589.649 457 -107 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 712 364 0 0 0 0 0 0 0 0 0 0
+node "m1_47_n105#" 1 161.593 47 -105 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188 102 0 0 0 0 0 0 0 0 0 0
+node "m1_196_n82#" 0 21.0864 196 -82 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0 0 0
+node "m1_34_n58#" 2 341.143 34 -58 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 294 154 30 22 0 0 0 0 0 0 0 0
+node "m1_50_n41#" 1 141.988 50 -41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 90 0 0 0 0 0 0 0 0 0 0
+node "P1" 2 331.508 197 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 396 206 0 0 0 0 0 0 0 0 0 0
+node "B3" 15 3646.89 -78 -898 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2098 1078 862 452 0 0 0 0 0 0 0 0
+node "A3" 20 4470.45 -70 -944 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2660 1366 1044 550 0 0 0 0 0 0 0 0
+node "B2" 18 4000.51 -62 -834 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2396 1234 952 504 0 0 0 0 0 0 0 0
+node "A2" 21 4549.25 -54 -880 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3176 1624 856 456 0 0 0 0 0 0 0 0
+node "A1" 19 4076.04 -46 -750 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2908 1490 764 410 0 0 0 0 0 0 0 0
+node "B1" 18 3730.98 -38 -640 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2648 1360 668 362 0 0 0 0 0 0 0 0
+node "B0" 13 2879.22 -30 -382 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1876 974 572 314 0 0 0 0 0 0 0 0
+node "A0" 15 2380.29 -83 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2904 1460 0 0 0 0 0 0 0 0 0 0
+node "P0" 1 236.748 48 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 280 148 0 0 0 0 0 0 0 0 0 0
+node "m1_52_n918#" 45 14352.2 52 -918 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4551 2354 4302 2118 0 0 0 0 0 0 0 0
+cap "m1_727_n779#" "m1_414_n783#" 98.4852
+cap "m1_52_n918#" "m1_52_n233#" 85.4352
+cap "m1_702_n362#" "P6" 381.06
+cap "A2" "B2" 5747.36
+cap "m1_52_n879#" "m1_397_n907#" 824.76
+cap "m1_52_n749#" "m1_34_n704#" 5608.37
+cap "m1_34_n58#" "m1_50_n41#" 233.682
+cap "m1_52_n918#" "m1_34_n380#" 85.4352
+cap "m1_727_n779#" "m1_397_n907#" 85.4352
+cap "m1_52_n918#" "m1_410_n499#" 96.714
+cap "m1_724_n616#" "m1_52_n685#" 1421.72
+cap "C5" "P6" 15038.1
+cap "B2" "A1" 256.306
+cap "m1_52_n918#" "m1_47_n105#" 85.4352
+cap "m1_50_n363#" "m1_52_n918#" 1734.96
+cap "A0" "B2" 308.33
+cap "m2_n6_n951#" "B0" 439.056
+cap "m1_415_n627#" "m1_415_n634#" 1168.41
+cap "m1_52_n918#" "m1_52_n749#" 126.673
+cap "m1_457_n191#" "m1_52_n491#" 85.4352
+cap "m1_52_n918#" "m1_158_n975#" 40.32
+cap "m1_724_n616#" "m1_145_n884#" 96.714
+cap "m1_415_n627#" "P3" 381.452
+cap "m1_52_n918#" "m1_50_n41#" 85.4352
+cap "m1_620_n403#" "m1_553_n418#" 85.4352
+cap "A2" "m2_n6_n951#" 436.446
+cap "m1_421_n443#" "m1_153_n677#" 154.165
+cap "m1_34_n636#" "m1_153_n677#" 98.4852
+cap "m1_49_n183#" "m1_52_n918#" 308.808
+cap "m1_52_n685#" "m1_34_n704#" 3367.77
+cap "A3" "B0" 85.4352
+cap "m1_52_n1096#" "m1_154_n1102#" 65.2752
+cap "m1_724_n616#" "m1_415_n634#" 96.714
+cap "m1_724_n616#" "m1_415_n627#" 126.17
+cap "m1_50_n363#" "m1_34_n380#" 68.73
+cap "m1_154_n284#" "m1_52_n313#" 85.4352
+cap "m2_n6_n951#" "A1" 439.056
+cap "m1_52_n815#" "m1_145_n884#" 85.4352
+cap "A0" "m2_n6_n951#" 290.142
+cap "A3" "A2" 256.306
+cap "B1" "B0" 3593.62
+cap "A2" "B3" 170.87
+cap "m1_52_n918#" "m1_34_n200#" 167.215
+cap "m1_145_n884#" "m1_34_n704#" 85.4352
+cap "m1_34_n830#" "m1_52_n815#" 1175.28
+cap "m1_154_n284#" "m1_52_n427#" 85.4352
+cap "m1_414_n841#" "m1_414_n783#" 136.983
+cap "m1_52_n685#" "m1_52_n918#" 85.4352
+cap "B1" "A2" 170.87
+cap "A3" "A1" 170.87
+cap "P6" "m1_154_n1102#" 85.4352
+cap "B3" "A1" 85.4352
+cap "m1_724_n616#" "m1_457_n191#" 27.144
+cap "A0" "A3" 154.165
+cap "m1_52_n918#" "m1_52_n491#" 85.4352
+cap "m1_52_n918#" "m1_153_n677#" 170.87
+cap "m1_52_n918#" "m1_145_n884#" 85.4352
+cap "m1_457_n191#" "m1_421_n443#" 98.4852
+cap "m1_727_n779#" "m1_414_n841#" 85.4352
+cap "B1" "A1" 5864.67
+cap "m1_52_n557#" "m1_153_n677#" 85.4352
+cap "m1_52_n621#" "m1_153_n677#" 85.4352
+cap "B1" "A0" 462.496
+cap "m2_n6_n951#" "B2" 436.446
+cap "m1_34_n830#" "m1_52_n918#" 85.4352
+cap "m1_52_n918#" "m1_52_n879#" 99.1812
+cap "m2_548_n387#" "m1_415_n627#" 96.714
+cap "m1_52_n918#" "m1_52_n313#" 140.419
+cap "m1_52_n918#" "m1_52_n427#" 85.4352
+cap "m1_727_n779#" "m1_553_n418#" 271.864
+cap "A3" "B2" 5204.87
+cap "B3" "B2" 170.87
+cap "m1_702_n362#" "m1_154_n1102#" 85.4352
+cap "m1_415_n627#" "m1_553_n418#" 1487.53
+cap "m1_52_n491#" "m1_410_n499#" 759.958
+cap "m1_410_n499#" "m1_153_n677#" 98.4852
+cap "m1_483_n425#" "m1_553_n418#" 2460.53
+cap "m1_49_n183#" "m1_34_n200#" 54.984
+cap "B1" "B2" 170.87
+cap "m1_457_n191#" "m1_52_n918#" 85.4352
+cap "P0" "m1_52_n918#" 85.4352
+cap "m1_52_n749#" "m1_414_n783#" 185.571
+cap "C5" "m1_154_n1102#" 85.4352
+cap "m1_52_n749#" "m1_145_n884#" 85.4352
+cap "m1_457_n191#" "m1_52_n557#" 85.4352
+cap "m1_154_n284#" "m1_52_n918#" 357.595
+cap "m1_457_n191#" "m1_435_n341#" 85.4352
+cap "m1_34_n636#" "m1_52_n918#" 85.4352
+cap "m1_724_n616#" "m1_553_n418#" 7.45714
+cap "A2" "B0" 85.4352
+cap "m1_435_n341#" "m1_421_n443#" 457.055
+cap "m1_52_n879#" "m1_158_n975#" 85.4352
+cap "m1_397_n907#" "m1_158_n975#" 601.213
+cap "m1_52_n621#" "m1_34_n636#" 68.73
+cap "A3" "m2_n6_n951#" 433.836
+cap "P6" "P5" 9989.91
+cap "m2_n6_n951#" "B3" 326.682
+cap "m1_415_n627#" "m1_620_n403#" 4955.43
+cap "m1_727_n779#" "m1_158_n975#" 403.855
+cap "m1_52_n918#" "m1_52_n815#" 236.641
+cap "m1_52_n918#" "m1_34_n58#" 85.4352
+cap "B1" "m2_n6_n951#" 439.056
+cap "m1_52_n918#" "m1_34_n704#" 85.4352
+cap "A1" "B0" 170.87
+cap "m1_457_n191#" "m1_420_n287#" 85.4352
+cap "A0" "B0" 6018.84
+cap "m1_457_n191#" "m1_410_n499#" 98.4852
+cap "m1_154_n284#" "m1_34_n380#" 85.4352
+cap "A3" "B3" 4153.3
+cap "A2" "A1" 6338.91
+cap "A0" "A2" 308.33
+cap "m1_52_n685#" "m1_145_n884#" 85.4352
+cap "m1_615_n255#" "P3" 85.4352
+cap "B1" "A3" 170.87
+cap "B1" "B3" 85.4352
+cap "m1_50_n363#" "m1_154_n284#" 85.4352
+cap "m1_52_n491#" "m1_153_n677#" 85.4352
+cap "m1_52_n918#" "m1_52_n557#" 264.133
+cap "m1_52_n621#" "m1_52_n918#" 415.339
+cap "m1_702_n362#" "P5" 165.444
+cap "m1_52_n1096#" "m2_28_n987#" 96.714
+cap "A0" "A1" 462.496
+cap "B2" "B0" 85.4352
+cap "m1_34_n830#" "m1_145_n884#" 98.4852
+cap "m1_52_n879#" "m1_145_n884#" 51.5475
+subcap "m1_154_n1102#" -959.612
+cap "full_adder_magic_7/half_adder_magic_0/B" "full_adder_magic_7/C_IN" 20.16
+cap "full_adder_magic_7/m1_78_n5#" "m1_154_n1102#" 556.713
+subcap "C5" -7690.67
+cap "m1_154_n1102#" "full_adder_magic_7/or_magic_0/nor_magic_0/B" 350.523
+subcap "C5" -6680.59
+cap "P6" "full_adder_magic_6/C_IN" 122.67
+cap "P6" "full_adder_magic_6/C_IN" 255.78
+cap "full_adder_magic_6/m1_78_n5#" "full_adder_magic_6/C_IN" 20.16
+cap "full_adder_magic_6/or_magic_0/nor_magic_0/GND" "full_adder_magic_6/half_adder_magic_1/and_magic_0/nand_magic_0/B" 32.8114
+cap "full_adder_magic_6/half_adder_magic_1/and_magic_0/nand_magic_0/B" "full_adder_magic_6/half_adder_magic_1/m2_33_n60#" 108.576
+cap "full_adder_magic_6/or_magic_0/nor_magic_0/B" "full_adder_magic_6/half_adder_magic_1/and_magic_0/nand_magic_0/B" 635.04
+subcap "m2_n6_n951#" -9488.09
+cap "and_magic_11/nand_magic_0/GND" "and_magic_10/m2_5_n11#" 3.48
+cap "and_magic_11/nand_magic_0/A" "and_magic_11/nand_magic_0/GND" -1.42109e-14
+subcap "m1_52_n918#" -14039.6
+subcap "m1_158_n975#" -2505.84
+cap "m1_52_n879#" "full_adder_magic_7/half_adder_magic_0/VDD" 453.618
+cap "full_adder_magic_7/half_adder_magic_0/A" "full_adder_magic_7/half_adder_magic_0/VDD" 45.1152
+cap "full_adder_magic_7/half_adder_magic_0/A" "full_adder_magic_5/C_IN" 76.995
+cap "full_adder_magic_7/half_adder_magic_0/A" "full_adder_magic_7/half_adder_magic_0/GND" 7.45714
+cap "full_adder_magic_5/C_IN" "m1_158_n975#" 112.23
+cap "full_adder_magic_7/half_adder_magic_0/xor_magic_0/VDD" "m1_52_n879#" 701.046
+cap "full_adder_magic_7/half_adder_magic_1/xor_magic_0/VDD" "m1_52_n879#" 68.73
+subcap "P6" -7361.85
+subcap "m1_397_n907#" -461.039
+cap "full_adder_magic_7/half_adder_magic_1/xor_magic_0/VDD" "m1_52_n879#" 1085.93
+subcap "P6" -7284.17
+cap "full_adder_magic_6/half_adder_magic_0/A" "full_adder_magic_6/half_adder_magic_0/B" 593.827
+subcap "P5" -3320.81
+cap "and_magic_9/nand_magic_0/B" "and_magic_10/nand_magic_0/GND" -2.84217e-14
+cap "and_magic_10/nand_magic_0/GND" "and_magic_10/nand_magic_0/B" -2.84217e-14
+cap "and_magic_9/nand_magic_0/A" "and_magic_10/nand_magic_0/GND" -1.42109e-14
+cap "and_magic_10/nand_magic_0/GND" "and_magic_10/nand_magic_0/A" -1.42109e-14
+subcap "m1_52_n879#" -1686.08
+subcap "m1_34_n830#" -146.398
+subcap "m1_52_n815#" -379.782
+cap "and_magic_9/inverter_magic_0/OUTPUT" "and_magic_9/inverter_magic_0/GND" 41.238
+cap "m1_158_n975#" "full_adder_magic_5/C_IN" 76.995
+cap "full_adder_magic_5/m1_78_n5#" "full_adder_magic_5/C_IN" 141.12
+cap "m1_158_n975#" "full_adder_magic_5/C_IN" 112.23
+cap "full_adder_magic_5/half_adder_magic_1/and_magic_0/m2_5_n11#" "full_adder_magic_5/C_IN" 12.528
+cap "m1_727_n779#" "full_adder_magic_5/or_magic_0/nor_magic_0/B" 514.08
+cap "m1_727_n779#" "full_adder_magic_5/half_adder_magic_1/and_magic_0/inverter_magic_0/GND" 128.859
+cap "full_adder_magic_4/C_IN" "m1_727_n779#" 70.0971
+cap "full_adder_magic_5/or_magic_0/inverter_magic_0/VDD" "full_adder_magic_6/half_adder_magic_0/A" 5.68434e-14
+cap "full_adder_magic_4/C_IN" "full_adder_magic_4/m1_78_n5#" 20.16
+cap "m1_727_n779#" "full_adder_magic_4/C_IN" 146.16
+cap "full_adder_magic_4/m1_78_n5#" "full_adder_magic_4/C_IN" 635.04
+cap "full_adder_magic_4/C_IN" "full_adder_magic_4/half_adder_magic_1/m2_33_n60#" 108.576
+cap "full_adder_magic_4/C_IN" "full_adder_magic_4/or_magic_0/nor_magic_0/GND" 16.4057
+subcap "P5" -2830.37
+cap "and_magic_8/nand_magic_0/GND" "and_magic_8/nand_magic_0/A" -1.42109e-14
+cap "and_magic_8/nand_magic_0/GND" "and_magic_8/nand_magic_0/B" -2.84217e-14
+cap "and_magic_12/m2_5_n11#" "and_magic_8/nand_magic_0/GND" 13.92
+subcap "m1_52_n749#" -1695.88
+subcap "m1_34_n704#" -1497.07
+cap "full_adder_magic_5/half_adder_magic_0/A" "full_adder_magic_5/half_adder_magic_0/GND" 41.238
+cap "m1_145_n884#" "full_adder_magic_5/half_adder_magic_0/xor_magic_0/VDD" 49.59
+subcap "m1_414_n783#" -994.405
+cap "full_adder_magic_5/half_adder_magic_1/xor_magic_0/VDD" "m1_145_n884#" 49.59
+subcap "m1_414_n783#" -893.849
+cap "full_adder_magic_4/half_adder_magic_0/A" "full_adder_magic_4/half_adder_magic_0/B" 593.827
+cap "full_adder_magic_4/half_adder_magic_0/A" "full_adder_magic_4/half_adder_magic_0/GND" -3.6648
+cap "full_adder_magic_4/half_adder_magic_1/xor_magic_0/B" "full_adder_magic_4/half_adder_magic_1/xor_magic_0/GND" 55.1829
+subcap "m1_727_n779#" -5755.41
+cap "and_magic_12/nand_magic_0/GND" "and_magic_12/nand_magic_0/A" -1.42109e-14
+cap "and_magic_12/nand_magic_0/GND" "and_magic_13/nand_magic_0/A" -1.42109e-14
+cap "and_magic_12/nand_magic_0/GND" "and_magic_12/nand_magic_0/B" -2.84217e-14
+cap "and_magic_12/nand_magic_0/GND" "and_magic_13/nand_magic_0/B" -2.84217e-14
+subcap "m1_34_n704#" -1303.71
+subcap "m1_52_n685#" -1326.65
+subcap "m1_34_n636#" -188.877
+subcap "m1_52_n621#" -418.253
+cap "and_magic_13/inverter_magic_0/OUTPUT" "and_magic_13/inverter_magic_0/GND" 41.238
+cap "and_magic_13/inverter_magic_0/OUTPUT" "and_magic_12/inverter_magic_0/VDD" -1.42109e-14
+subcap "m1_153_n677#" -4642.73
+cap "m1_34_n636#" "full_adder_magic_3/half_adder_magic_0/and_magic_0/nand_magic_0/A" 233.682
+cap "full_adder_magic_3/C_IN" "m1_52_n685#" 617.442
+cap "full_adder_magic_3/m1_78_n5#" "full_adder_magic_3/C_IN" 141.12
+cap "m1_52_n685#" "full_adder_magic_3/C_IN" 796.894
+cap "full_adder_magic_3/C_IN" "full_adder_magic_3/half_adder_magic_1/and_magic_0/m2_5_n11#" 12.528
+cap "m1_52_n685#" "full_adder_magic_3/m1_78_n5#" 1113.43
+subcap "m1_415_n627#" -2859.16
+cap "full_adder_magic_3/or_magic_0/nor_magic_0/B" "m1_724_n616#" 514.08
+cap "full_adder_magic_3/half_adder_magic_1/and_magic_0/inverter_magic_0/GND" "m1_724_n616#" 128.859
+cap "full_adder_magic_3/or_magic_0/nor_magic_0/B" "m1_52_n685#" 701.046
+subcap "m1_415_n627#" -2542.95
+cap "full_adder_magic_4/half_adder_magic_0/GND" "full_adder_magic_4/half_adder_magic_0/A" 4.5828
+cap "m1_415_n627#" "full_adder_magic_4/half_adder_magic_0/VDD" 100.149
+cap "m1_724_n616#" "full_adder_magic_2/C_IN" 120.06
+cap "full_adder_magic_2/C_IN" "m1_724_n616#" 258.39
+cap "full_adder_magic_4/half_adder_magic_0/xor_magic_0/VDD" "m1_415_n627#" 371.142
+subcap "m1_724_n616#" -3817
+cap "m1_415_n627#" "full_adder_magic_4/half_adder_magic_1/xor_magic_0/VDD" 494.856
+subcap "m1_724_n616#" -4690.01
+cap "and_magic_15/nand_magic_0/GND" "and_magic_14/nand_magic_0/A" -1.42109e-14
+cap "and_magic_15/nand_magic_0/GND" "and_magic_14/nand_magic_0/B" -1.42109e-14
+cap "and_magic_15/nand_magic_0/GND" "and_magic_15/nand_magic_0/B" 2.84217e-14
+subcap "m1_52_n557#" -1708.95
+cap "full_adder_magic_3/half_adder_magic_0/A" "full_adder_magic_3/half_adder_magic_0/GND" 164.952
+cap "m1_52_n557#" "full_adder_magic_3/half_adder_magic_0/VDD" 453.618
+cap "full_adder_magic_3/half_adder_magic_0/xor_magic_0/VDD" "m1_52_n557#" 701.046
+cap "full_adder_magic_3/half_adder_magic_1/xor_magic_0/VDD" "m1_52_n557#" 68.73
+cap "m1_52_n557#" "full_adder_magic_3/half_adder_magic_1/xor_magic_0/VDD" 1085.93
+subcap "m1_410_n499#" -381.082
+cap "full_adder_magic_2/half_adder_magic_0/B" "full_adder_magic_2/half_adder_magic_0/and_magic_0/nand_magic_0/A" 552.589
+cap "and_magic_15/nand_magic_0/A" "and_magic_15/nand_magic_0/GND" -1.42109e-14
+cap "and_magic_7/nand_magic_0/A" "and_magic_15/nand_magic_0/GND" -1.42109e-14
+cap "and_magic_15/nand_magic_0/GND" "and_magic_7/nand_magic_0/B" -2.84217e-14
+subcap "m1_52_n491#" -1293.97
+subcap "m1_52_n427#" -411.718
+cap "and_magic_15/inverter_magic_0/VDD" "and_magic_7/inverter_magic_0/OUTPUT" -1.42109e-14
+cap "full_adder_magic_1/C_IN" "m1_52_n918#" 352.8
+cap "full_adder_magic_1/half_adder_magic_0/and_magic_0/nand_magic_0/A" "full_adder_magic_1/half_adder_magic_0/B" 41.238
+cap "m1_52_n918#" "full_adder_magic_1/m1_78_n5#" 587.641
+cap "full_adder_magic_1/C_IN" "m1_52_n918#" 1008
+cap "full_adder_magic_1/half_adder_magic_1/B" "m1_52_n918#" 100.8
+cap "full_adder_magic_1/or_magic_0/nor_magic_0/B" "m1_52_n918#" 773.212
+subcap "m1_483_n425#" -611.753
+cap "half_adder_magic_2/B" "full_adder_magic_2/half_adder_magic_0/VDD" 206.19
+cap "full_adder_magic_2/half_adder_magic_0/A" "full_adder_magic_1/or_magic_0/inverter_magic_0/GND" 41.238
+cap "full_adder_magic_1/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_1/or_magic_0/inverter_magic_0/GND" 41.238
+cap "full_adder_magic_1/or_magic_0/inverter_magic_0/VDD" "full_adder_magic_1/or_magic_0/inverter_magic_0/GND" 6.873
+subcap "m1_620_n403#" -1545.16
+subcap "m1_553_n418#" -6148.06
+cap "m1_483_n425#" "full_adder_magic_2/half_adder_magic_0/xor_magic_0/VDD" 659.808
+subcap "m1_620_n403#" -1422.01
+cap "m1_483_n425#" "full_adder_magic_2/half_adder_magic_1/xor_magic_0/VDD" 865.998
+subcap "B0" -2331.58
+cap "and_magic_6/nand_magic_0/B" "and_magic_6/nand_magic_0/A" -1.42109e-14
+cap "and_magic_5/nand_magic_0/GND" "and_magic_6/nand_magic_0/B" -1.42109e-14
+cap "and_magic_5/nand_magic_0/A" "and_magic_5/nand_magic_0/B" -2.84217e-14
+cap "and_magic_5/nand_magic_0/GND" "and_magic_5/nand_magic_0/B" -1.42109e-14
+subcap "m1_34_n380#" -9.8994
+subcap "m1_50_n363#" -177.191
+subcap "m1_52_n313#" -707.187
+cap "and_magic_6/inverter_magic_0/OUTPUT" "and_magic_6/inverter_magic_0/GND" 27.492
+cap "half_adder_magic_1/m2_33_n60#" "m1_154_n284#" 10.44
+cap "full_adder_magic_1/half_adder_magic_0/GND" "full_adder_magic_1/half_adder_magic_0/A" 263.923
+cap "m1_52_n313#" "full_adder_magic_1/half_adder_magic_0/VDD" 415.816
+cap "half_adder_magic_2/GND" "full_adder_magic_1/or_magic_0/inverter_magic_0/VDD" 20.619
+cap "half_adder_magic_2/GND" "full_adder_magic_1/half_adder_magic_1/SUM" 68.73
+subcap "m1_620_n403#" -1571.7
+subcap "P3" -1122.79
+cap "half_adder_magic_3/B" "m1_415_n627#" 13.746
+subcap "m1_620_n403#" -26.0454
+subcap "m1_702_n362#" -8956.8
+cap "half_adder_magic_3/B" "m1_415_n627#" 13.746
+cap "and_magic_4/nand_magic_0/B" "and_magic_5/nand_magic_0/GND" -2.84217e-14
+cap "and_magic_5/nand_magic_0/GND" "and_magic_4/nand_magic_0/A" -1.42109e-14
+cap "half_adder_magic_1/GND" "half_adder_magic_1/A" 29.4557
+cap "half_adder_magic_1/GND" "and_magic_5/inverter_magic_0/VDD" 92.7855
+cap "half_adder_magic_1/A" "and_magic_4/inverter_magic_0/OUTPUT" 742.284
+cap "and_magic_5/inverter_magic_0/w_0_0#" "and_magic_5/inverter_magic_0/INPUT" -1.42109e-14
+cap "half_adder_magic_1/A" "half_adder_magic_1/and_magic_0/inverter_magic_0/w_0_0#" -1.42109e-14
+subcap "m1_154_n284#" -1624.46
+cap "half_adder_magic_1/and_magic_0/inverter_magic_0/VDD" "full_adder_magic_0/C_IN" 64.5975
+cap "half_adder_magic_1/and_magic_0/inverter_magic_0/GND" "half_adder_magic_1/CARRY" 41.76
+cap "full_adder_magic_1/half_adder_magic_0/xor_magic_0/VDD" "full_adder_magic_0/C_IN" 195.88
+cap "half_adder_magic_1/xor_magic_0/w_33_n32#" "half_adder_magic_1/xor_magic_0/VDD" -1.42109e-14
+subcap "m1_420_n287#" -106.769
+subcap "m1_615_n255#" -218.309
+subcap "P4" -878.984
+cap "and_magic_3/nand_magic_0/B" "and_magic_3/nand_magic_0/A" -1.42109e-14
+cap "and_magic_3/nand_magic_0/GND" "and_magic_3/nand_magic_0/B" 1.7053e-13
+cap "and_magic_2/inverter_magic_0/OUTPUT" "half_adder_magic_0/and_magic_0/nand_magic_0/A" 68.73
+cap "half_adder_magic_1/A" "half_adder_magic_1/GND" -1.42109e-14
+cap "half_adder_magic_1/GND" "and_magic_4/inverter_magic_0/VDD" 92.7855
+cap "half_adder_magic_1/A" "and_magic_4/inverter_magic_0/VDD" 41.238
+cap "half_adder_magic_1/SUM" "half_adder_magic_1/xor_magic_0/w_67_0#" -3.55271e-15
+subcap "m1_457_n191#" -4247.58
+subcap "P2" -536.627
+cap "and_magic_1/nand_magic_0/B" "and_magic_1/nand_magic_0/A" -2.84217e-14
+cap "and_magic_2/nand_magic_0/GND" "and_magic_1/nand_magic_0/A" -1.42109e-14
+cap "and_magic_1/nand_magic_0/B" "and_magic_2/nand_magic_0/GND" -1.42109e-14
+cap "and_magic_2/nand_magic_0/GND" "and_magic_2/nand_magic_0/A" 2.84217e-14
+subcap "m1_47_n105#" -133.32
+cap "half_adder_magic_0/A" "and_magic_2/inverter_magic_0/OUTPUT" 13.746
+cap "half_adder_magic_0/GND" "half_adder_magic_0/A" 453.618
+subcap "m1_154_n107#" -187.704
+subcap "P1" -154.318
+subcap "P2" -374.402
+subcap "A0" -1886.57
+cap "and_magic_0/nand_magic_0/GND" "and_magic_0/nand_magic_0/B" -1.42109e-14
+merge "full_adder_magic_7/half_adder_magic_0/GND" "and_magic_11/inverter_magic_0/GND" -104.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "and_magic_11/inverter_magic_0/GND" "m2_28_n987#"
+merge "and_magic_4/inverter_magic_0/OUTPUT" "half_adder_magic_1/B" -28.2534 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26 -20 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/B" "m1_52_n233#"
+merge "and_magic_0/nand_magic_0/GND" "and_magic_1/nand_magic_0/GND" -1384.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -213 -259 0 0 0 0 0 0 0 0
+merge "and_magic_1/nand_magic_0/GND" "and_magic_2/nand_magic_0/GND"
+merge "and_magic_2/nand_magic_0/GND" "and_magic_3/nand_magic_0/GND"
+merge "and_magic_3/nand_magic_0/GND" "and_magic_4/nand_magic_0/GND"
+merge "and_magic_4/nand_magic_0/GND" "and_magic_6/nand_magic_0/GND"
+merge "and_magic_6/nand_magic_0/GND" "and_magic_5/nand_magic_0/GND"
+merge "and_magic_5/nand_magic_0/GND" "and_magic_7/nand_magic_0/GND"
+merge "and_magic_7/nand_magic_0/GND" "and_magic_14/nand_magic_0/GND"
+merge "and_magic_14/nand_magic_0/GND" "and_magic_15/nand_magic_0/GND"
+merge "and_magic_15/nand_magic_0/GND" "and_magic_13/nand_magic_0/GND"
+merge "and_magic_13/nand_magic_0/GND" "and_magic_12/nand_magic_0/GND"
+merge "and_magic_12/nand_magic_0/GND" "and_magic_8/nand_magic_0/GND"
+merge "and_magic_8/nand_magic_0/GND" "and_magic_9/nand_magic_0/GND"
+merge "and_magic_9/nand_magic_0/GND" "and_magic_10/nand_magic_0/GND"
+merge "and_magic_10/nand_magic_0/GND" "and_magic_11/nand_magic_0/GND"
+merge "and_magic_11/nand_magic_0/GND" "m2_n6_n951#"
+merge "and_magic_6/nand_magic_0/A" "and_magic_13/nand_magic_0/A" -384.965 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -432 -248 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_13/nand_magic_0/A" "and_magic_9/nand_magic_0/A"
+merge "and_magic_9/nand_magic_0/A" "and_magic_11/nand_magic_0/A"
+merge "and_magic_11/nand_magic_0/A" "A3"
+merge "full_adder_magic_5/half_adder_magic_0/A" "and_magic_9/inverter_magic_0/OUTPUT" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_9/inverter_magic_0/OUTPUT" "m1_52_n815#"
+merge "full_adder_magic_3/half_adder_magic_0/GND" "and_magic_13/inverter_magic_0/GND" -209.273 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -152 -88 0 -10 0 0 0 0 0 0 0 0
+merge "and_magic_13/inverter_magic_0/GND" "m1_34_n636#"
+merge "and_magic_0/inverter_magic_0/VDD" "and_magic_1/inverter_magic_0/VDD" -1407.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1076 -732 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_1/inverter_magic_0/VDD" "half_adder_magic_0/VDD"
+merge "half_adder_magic_0/VDD" "and_magic_2/inverter_magic_0/VDD"
+merge "and_magic_2/inverter_magic_0/VDD" "and_magic_3/inverter_magic_0/VDD"
+merge "and_magic_3/inverter_magic_0/VDD" "half_adder_magic_1/VDD"
+merge "half_adder_magic_1/VDD" "and_magic_4/inverter_magic_0/VDD"
+merge "and_magic_4/inverter_magic_0/VDD" "and_magic_5/inverter_magic_0/VDD"
+merge "and_magic_5/inverter_magic_0/VDD" "full_adder_magic_1/half_adder_magic_0/VDD"
+merge "full_adder_magic_1/half_adder_magic_0/VDD" "and_magic_6/inverter_magic_0/VDD"
+merge "and_magic_6/inverter_magic_0/VDD" "full_adder_magic_2/half_adder_magic_0/VDD"
+merge "full_adder_magic_2/half_adder_magic_0/VDD" "and_magic_7/inverter_magic_0/VDD"
+merge "and_magic_7/inverter_magic_0/VDD" "and_magic_15/inverter_magic_0/VDD"
+merge "and_magic_15/inverter_magic_0/VDD" "full_adder_magic_3/half_adder_magic_0/VDD"
+merge "full_adder_magic_3/half_adder_magic_0/VDD" "and_magic_14/inverter_magic_0/VDD"
+merge "and_magic_14/inverter_magic_0/VDD" "and_magic_13/inverter_magic_0/VDD"
+merge "and_magic_13/inverter_magic_0/VDD" "and_magic_12/inverter_magic_0/VDD"
+merge "and_magic_12/inverter_magic_0/VDD" "full_adder_magic_5/half_adder_magic_0/VDD"
+merge "full_adder_magic_5/half_adder_magic_0/VDD" "and_magic_8/inverter_magic_0/VDD"
+merge "and_magic_8/inverter_magic_0/VDD" "and_magic_9/inverter_magic_0/VDD"
+merge "and_magic_9/inverter_magic_0/VDD" "and_magic_10/inverter_magic_0/VDD"
+merge "and_magic_10/inverter_magic_0/VDD" "full_adder_magic_7/half_adder_magic_0/VDD"
+merge "full_adder_magic_7/half_adder_magic_0/VDD" "and_magic_11/inverter_magic_0/VDD"
+merge "and_magic_11/inverter_magic_0/VDD" "m1_52_n918#"
+merge "full_adder_magic_7/half_adder_magic_1/SUM" "P6" -5.4888 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -8 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/CARRY" "full_adder_magic_0/half_adder_magic_0/A" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_0/half_adder_magic_0/A" "m1_154_n107#"
+merge "full_adder_magic_1/half_adder_magic_0/A" "and_magic_6/inverter_magic_0/OUTPUT" -22.5672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_6/inverter_magic_0/OUTPUT" "m1_50_n363#"
+merge "full_adder_magic_3/half_adder_magic_0/A" "and_magic_13/inverter_magic_0/OUTPUT" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_13/inverter_magic_0/OUTPUT" "m1_52_n621#"
+merge "full_adder_magic_5/half_adder_magic_1/SUM" "full_adder_magic_6/half_adder_magic_0/A" -16.7724 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -18 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_6/half_adder_magic_0/A" "m1_414_n783#"
+merge "full_adder_magic_2/half_adder_magic_0/B" "and_magic_14/inverter_magic_0/OUTPUT" -387.158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 538 -556 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_14/inverter_magic_0/OUTPUT" "m1_52_n557#"
+merge "and_magic_14/nand_magic_0/B" "and_magic_8/nand_magic_0/B" -55.0458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 -48 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_8/nand_magic_0/B" "and_magic_10/nand_magic_0/B"
+merge "and_magic_10/nand_magic_0/B" "and_magic_11/nand_magic_0/B"
+merge "and_magic_11/nand_magic_0/B" "B3"
+merge "full_adder_magic_5/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_7/half_adder_magic_0/A" -2303.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -18 -388 -463 0 0 0 0 0 0 0 0
+merge "full_adder_magic_7/half_adder_magic_0/A" "m1_158_n975#"
+merge "full_adder_magic_1/half_adder_magic_0/B" "and_magic_7/inverter_magic_0/OUTPUT" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_7/inverter_magic_0/OUTPUT" "m1_52_n427#"
+merge "and_magic_2/nand_magic_0/A" "and_magic_4/nand_magic_0/A" -711.725 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -832 -448 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_4/nand_magic_0/A" "and_magic_15/nand_magic_0/A"
+merge "and_magic_15/nand_magic_0/A" "and_magic_8/nand_magic_0/A"
+merge "and_magic_8/nand_magic_0/A" "A1"
+merge "full_adder_magic_1/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_3/half_adder_magic_0/B" -3134.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 -76 -586 0 0 0 0 0 0 0 0
+merge "full_adder_magic_3/half_adder_magic_0/B" "m1_153_n677#"
+merge "full_adder_magic_6/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_7/half_adder_magic_0/B" -1176.77 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1416 -728 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_7/half_adder_magic_0/B" "m1_154_n1102#"
+merge "full_adder_magic_3/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_5/half_adder_magic_0/B" -3472.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -16 -1268 -638 0 0 0 0 0 0 0 0
+merge "full_adder_magic_5/half_adder_magic_0/B" "m1_145_n884#"
+merge "and_magic_10/inverter_magic_0/OUTPUT" "full_adder_magic_6/half_adder_magic_0/B" -92.1072 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1472 -556 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_6/half_adder_magic_0/B" "m1_52_n879#"
+merge "and_magic_1/inverter_magic_0/GND" "half_adder_magic_0/GND" -103.515 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -10 -14 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/GND" "m1_34_n58#"
+merge "half_adder_magic_3/A" "full_adder_magic_3/half_adder_magic_1/SUM" -901.182 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -680 -685 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_3/half_adder_magic_1/SUM" "m1_415_n627#"
+merge "full_adder_magic_0/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_2/C_IN" -3146.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -1430 -606 0 0 0 0 0 0 0 0
+merge "full_adder_magic_2/C_IN" "m1_457_n191#"
+merge "and_magic_0/inverter_magic_0/OUTPUT" "P0" -21.0864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_2/A" "full_adder_magic_1/half_adder_magic_1/SUM" -16.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_1/half_adder_magic_1/SUM" "m1_435_n341#"
+merge "and_magic_1/nand_magic_0/B" "and_magic_4/nand_magic_0/B" -1035.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1228 -646 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_4/nand_magic_0/B" "and_magic_7/nand_magic_0/B"
+merge "and_magic_7/nand_magic_0/B" "and_magic_13/nand_magic_0/B"
+merge "and_magic_13/nand_magic_0/B" "B1"
+merge "half_adder_magic_0/SUM" "P1" -185.207 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -212 -118 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_3/GND" "half_adder_magic_2/m2_33_n60#" -1695.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -593 -318 0 0 0 0 0 0 0 0
+merge "half_adder_magic_2/m2_33_n60#" "m2_548_n387#"
+merge "half_adder_magic_2/GND" "full_adder_magic_1/or_magic_0/inverter_magic_0/GND" -185.496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -30 0 0 0 0 0 0 0 0
+merge "full_adder_magic_1/or_magic_0/inverter_magic_0/GND" "full_adder_magic_1/half_adder_magic_1/and_magic_0/inverter_magic_0/GND"
+merge "full_adder_magic_1/half_adder_magic_1/and_magic_0/inverter_magic_0/GND" "m1_421_n443#"
+merge "m1_421_n443#" "full_adder_magic_2/half_adder_magic_0/GND"
+merge "full_adder_magic_2/half_adder_magic_0/GND" "m1_410_n499#"
+merge "and_magic_0/nand_magic_0/A" "and_magic_1/nand_magic_0/A" -379.802 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -422 -246 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_1/nand_magic_0/A" "and_magic_5/nand_magic_0/A"
+merge "and_magic_5/nand_magic_0/A" "and_magic_14/nand_magic_0/A"
+merge "and_magic_14/nand_magic_0/A" "A0"
+merge "full_adder_magic_0/half_adder_magic_1/SUM" "P2" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_5/C_IN" -5527.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -93 -58 -1313 -1028 0 0 0 0 0 0 0 0
+merge "full_adder_magic_5/C_IN" "m1_727_n779#"
+merge "half_adder_magic_3/VDD" "half_adder_magic_2/m1_51_n10#" -54.996 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0 0 0 0 0 0 0
+merge "half_adder_magic_2/m1_51_n10#" "m1_615_n255#"
+merge "full_adder_magic_7/or_magic_0/inverter_magic_0/OUTPUT" "C5" -185.947 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -208 -120 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_3/B" "full_adder_magic_4/half_adder_magic_1/SUM" -386.599 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -434 -249 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/half_adder_magic_1/SUM" "m1_620_n403#"
+merge "half_adder_magic_2/CARRY" "full_adder_magic_4/half_adder_magic_1/xor_magic_0/B" -4175.59 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -525 -260 -550 -650 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/half_adder_magic_1/xor_magic_0/B" "full_adder_magic_4/C_IN"
+merge "full_adder_magic_4/C_IN" "m1_553_n418#"
+merge "and_magic_0/nand_magic_0/B" "and_magic_2/nand_magic_0/B" -340.846 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -344 -244 80 0 0 0 0 0 0 0 0 0
+merge "and_magic_2/nand_magic_0/B" "and_magic_3/nand_magic_0/B"
+merge "and_magic_3/nand_magic_0/B" "and_magic_6/nand_magic_0/B"
+merge "and_magic_6/nand_magic_0/B" "B0"
+merge "half_adder_magic_2/SUM" "P3" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_2/or_magic_0/inverter_magic_0/OUTPUT" "full_adder_magic_3/C_IN" -4017.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 -1585 -762 0 0 0 0 0 0 0 0
+merge "full_adder_magic_3/C_IN" "m1_724_n616#"
+merge "half_adder_magic_0/B" "and_magic_2/inverter_magic_0/OUTPUT" -38.9052 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_2/inverter_magic_0/OUTPUT" "m1_47_n105#"
+merge "full_adder_magic_1/half_adder_magic_0/GND" "and_magic_6/inverter_magic_0/GND" -81.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -10 0 0 0 0 0 0 0 0
+merge "and_magic_6/inverter_magic_0/GND" "m1_34_n380#"
+merge "half_adder_magic_3/SUM" "P4" -0.4344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -8 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_3/inverter_magic_0/GND" "half_adder_magic_1/GND" -108.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 -4 -12 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/GND" "m1_34_n200#"
+merge "full_adder_magic_6/half_adder_magic_1/SUM" "P5" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_3/nand_magic_0/A" "and_magic_7/nand_magic_0/A" -711.725 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -832 -448 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_7/nand_magic_0/A" "and_magic_12/nand_magic_0/A"
+merge "and_magic_12/nand_magic_0/A" "and_magic_10/nand_magic_0/A"
+merge "and_magic_10/nand_magic_0/A" "A2"
+merge "full_adder_magic_0/half_adder_magic_0/B" "half_adder_magic_1/SUM" -34.374 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -28 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/SUM" "m1_199_n200#"
+merge "full_adder_magic_3/or_magic_0/inverter_magic_0/VDD" "full_adder_magic_4/half_adder_magic_0/VDD" -13.5048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -16 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/half_adder_magic_0/VDD" "full_adder_magic_3/half_adder_magic_1/and_magic_0/inverter_magic_0/VDD"
+merge "full_adder_magic_3/half_adder_magic_1/and_magic_0/inverter_magic_0/VDD" "m1_415_n634#"
+merge "full_adder_magic_5/half_adder_magic_1/and_magic_0/inverter_magic_0/GND" "full_adder_magic_6/half_adder_magic_0/GND" -74.5035 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -25 -8 0 0 0 0 0 0 0 0
+merge "full_adder_magic_6/half_adder_magic_0/GND" "m1_397_n907#"
+merge "and_magic_12/inverter_magic_0/GND" "full_adder_magic_4/half_adder_magic_0/GND" -747.734 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -536 -546 0 -10 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/half_adder_magic_0/GND" "m1_34_n704#"
+merge "half_adder_magic_0/m1_51_n10#" "full_adder_magic_0/half_adder_magic_0/VDD" -36.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_0/half_adder_magic_0/VDD" "m1_196_n82#"
+merge "full_adder_magic_6/half_adder_magic_0/VDD" "full_adder_magic_5/or_magic_0/inverter_magic_0/VDD" -16.7724 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -18 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_5/or_magic_0/inverter_magic_0/VDD" "full_adder_magic_5/half_adder_magic_1/and_magic_0/inverter_magic_0/VDD"
+merge "full_adder_magic_5/half_adder_magic_1/and_magic_0/inverter_magic_0/VDD" "m1_414_n841#"
+merge "full_adder_magic_0/C_IN" "and_magic_5/inverter_magic_0/OUTPUT" -415.999 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -388 -196 -20 -18 0 0 0 0 0 0 0 0
+merge "and_magic_5/inverter_magic_0/OUTPUT" "m1_52_n313#"
+merge "half_adder_magic_1/CARRY" "full_adder_magic_1/C_IN" -1059.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -348 -186 0 0 0 0 0 0 0 0
+merge "full_adder_magic_1/C_IN" "m1_154_n284#"
+merge "full_adder_magic_2/half_adder_magic_0/A" "and_magic_15/inverter_magic_0/OUTPUT" -895.757 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1072 -556 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_15/inverter_magic_0/OUTPUT" "m1_52_n491#"
+merge "half_adder_magic_0/m2_33_n60#" "half_adder_magic_0/and_magic_0/inverter_magic_0/GND" -149.238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -28 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/and_magic_0/inverter_magic_0/GND" "full_adder_magic_0/half_adder_magic_0/GND"
+merge "full_adder_magic_0/half_adder_magic_0/GND" "m2_149_n115#"
+merge "and_magic_3/inverter_magic_0/OUTPUT" "half_adder_magic_1/A" -43.9596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_1/A" "m1_49_n183#"
+merge "and_magic_1/inverter_magic_0/OUTPUT" "half_adder_magic_0/A" -29.1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_0/A" "m1_50_n41#"
+merge "full_adder_magic_2/half_adder_magic_1/SUM" "half_adder_magic_2/B" -690.432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 -416 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_magic_2/B" "m1_483_n425#"
+merge "full_adder_magic_5/half_adder_magic_0/GND" "and_magic_9/inverter_magic_0/GND" -81.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -10 0 0 0 0 0 0 0 0
+merge "and_magic_9/inverter_magic_0/GND" "m1_34_n830#"
+merge "and_magic_11/inverter_magic_0/OUTPUT" "full_adder_magic_7/C_IN" -49.776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0 0 0 0 0 0 0
+merge "full_adder_magic_7/C_IN" "m1_52_n1096#"
+merge "and_magic_12/inverter_magic_0/OUTPUT" "full_adder_magic_4/half_adder_magic_0/A" -895.757 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1072 -556 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/half_adder_magic_0/A" "m1_52_n685#"
+merge "half_adder_magic_2/VDD" "full_adder_magic_1/half_adder_magic_1/m1_51_n10#" -45.5304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_1/half_adder_magic_1/m1_51_n10#" "m1_420_n287#"
+merge "and_magic_5/nand_magic_0/B" "and_magic_15/nand_magic_0/B" -53.0418 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 -46 0 0 0 0 0 0 0 0 0 0
+merge "and_magic_15/nand_magic_0/B" "and_magic_12/nand_magic_0/B"
+merge "and_magic_12/nand_magic_0/B" "and_magic_9/nand_magic_0/B"
+merge "and_magic_9/nand_magic_0/B" "B2"
+merge "and_magic_8/inverter_magic_0/OUTPUT" "full_adder_magic_4/half_adder_magic_0/B" -812.043 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -807 -556 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_magic_4/half_adder_magic_0/B" "m1_52_n749#"
+merge "half_adder_magic_3/CARRY" "full_adder_magic_6/half_adder_magic_1/and_magic_0/nand_magic_0/B" -3646.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -167 -96 -999 -597 0 0 0 0 0 0 0 0
+merge "full_adder_magic_6/half_adder_magic_1/and_magic_0/nand_magic_0/B" "full_adder_magic_6/C_IN"
+merge "full_adder_magic_6/C_IN" "m1_702_n362#"

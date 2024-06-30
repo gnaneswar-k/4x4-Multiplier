@@ -1,0 +1,33 @@
+* SPICE3 file created from nor_magic.ext - technology: scmos
+.SUBCKT nor_mag A B OUTPUT VDD GND
+
+.OPTION scale=0.09u
+
+M1000 OUTPUT B a_13_6# w_0_0# CMOSP w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1001 a_13_6# A VDD w_0_0# CMOSP w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1002 GND B OUTPUT Gnd CMOSN w=4 l=2
++  ad=58 pd=44 as=24 ps=20
+M1003 OUTPUT A GND Gnd CMOSN w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 w_0_0# B 0.06fF
+C1 w_0_0# VDD 0.06fF
+C2 B OUTPUT 0.10fF
+C3 VDD OUTPUT 0.03fF
+C4 w_0_0# OUTPUT 0.03fF
+C5 B GND 0.13fF
+C6 OUTPUT GND 0.15fF
+C7 A B 0.08fF
+C8 A VDD 0.02fF
+C9 A w_0_0# 0.06fF
+C10 A OUTPUT 0.05fF
+C11 A GND 0.07fF
+C12 GND Gnd 0.22fF
+C13 OUTPUT Gnd 0.07fF
+C14 VDD Gnd 0.08fF
+C15 B Gnd 0.21fF
+C16 A Gnd 0.14fF
+C17 w_0_0# Gnd 0.64fF
+
+.ENDS nor_mag

@@ -1,0 +1,11 @@
+.SUBCKT inverter_own IN OUT VDD GND
+
+*MOSFET	Drain Gate Source Body Type
+
+Mp1 OUT IN VDD VDD CMOSP W={width_P} L={LAMBDA}
++ AS={5*width_P*LAMBDA} PS={10*LAMBDA+2*width_P} AD={5*width_P*LAMBDA} PD={10*LAMBDA+2*width_P}
+
+Mn1 OUT IN GND GND CMOSN W={width_N} L={LAMBDA}
++ AS={5*width_N*LAMBDA} PS={10*LAMBDA+2*width_N} AD={5*width_N*LAMBDA} PD={10*LAMBDA+2*width_N}
+
+.ENDS inverter_own

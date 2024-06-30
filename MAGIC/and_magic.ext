@@ -1,0 +1,19 @@
+timestamp 1668423063
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use inverter_magic inverter_magic_0 1 0 28 0 1 19
+use nand_magic nand_magic_0 1 0 0 0 1 19
+node "m2_5_n11#" 1 635.094 5 -11 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 114 0 0 0 0 0 0 0 0
+cap "inverter_magic_0/GND" "nand_magic_0/B" 96.714
+cap "inverter_magic_0/GND" "inverter_magic_0/INPUT" 23.5646
+cap "inverter_magic_0/w_0_0#" "inverter_magic_0/INPUT" -1.42109e-14
+cap "inverter_magic_0/w_0_0#" "inverter_magic_0/VDD" -4.008
+cap "inverter_magic_0/VDD" "inverter_magic_0/INPUT" 4.26326e-14
+merge "nand_magic_0/w_0_0#" "inverter_magic_0/w_0_0#" -80.352 0 0 0 0 -80 -48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand_magic_0/GND" "inverter_magic_0/GND" -149.238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "inverter_magic_0/GND" "m2_5_n11#"
+merge "nand_magic_0/VDD" "inverter_magic_0/VDD" -17.0784 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0 0 0
+merge "nand_magic_0/OUTPUT" "inverter_magic_0/INPUT" -21.0864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0 0 0
